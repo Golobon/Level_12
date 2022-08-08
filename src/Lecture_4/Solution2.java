@@ -7,7 +7,7 @@ public class Solution2 {
         System.out.println(getDifference(big)); // 46 или -46
     }
 
-    public static float getDifference(int big) {
+    public static int getDifference(int big) {
         float approx = big;
         return big - (int) approx;
     }
